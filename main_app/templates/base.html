@@ -1,15 +1,17 @@
-
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Cat Collector</title>
-    {% comment %} <link
+    <title>Explor</title>
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    /> {% endcomment %}
+    /> 
+        
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
   </head>
   <body>
     <header class="navbar-fixed">
@@ -17,11 +19,12 @@
         <div class="nav-wrapper">
           <ul>
             <li>
-              <a href="/" class="left brand-logo">  Explor</a>
+              <a href="/" class="left brand-logo"> Explor</a>
             </li>
           </ul>
           <ul class="right">
             <li><a href="/about">About</a></li>
+            <li><a href="/blogs">Blog</a></li>
           </ul>
         </div>
       </nav>
