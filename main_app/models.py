@@ -1,4 +1,5 @@
 from dataclasses import field
+from email.policy import default
 from django.db import models
 from django.urls import reverse
 
@@ -39,3 +40,10 @@ class Food(models.Model):
         return f"{self.get_review_display()} on {self.date}"
 
     
+
+class Photo(models.Model):
+    url = models.CharField(max_length=200)
+    blog = models.ForeignKey(Blog, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"Photo for blog_id: {self.blog_id} @{self.url}"
