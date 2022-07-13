@@ -2,6 +2,7 @@ from dataclasses import field
 from email.policy import default
 from django.db import models
 from django.urls import reverse
+from django.contrib.auth.models import User
 
 # Create your models here.
 REVIEWS = (
@@ -13,6 +14,7 @@ class Blog(models.Model):
     name = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
     description = models.TextField(max_length=100)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
@@ -24,7 +26,7 @@ class Blog(models.Model):
 
 
 class Food(models.Model):
-    date = models.DateField()
+    date = models.DateField('Date')
     review = models.CharField(
         max_length=1,
         # add the 'choices' field option

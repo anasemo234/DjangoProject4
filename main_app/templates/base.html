@@ -25,8 +25,14 @@
           </ul>
           <ul class="right">
             <li><a href="{% url 'about' %}">About</a></li>
+            {% if user.is_authenticated %}
             <li><a href="{% url 'index' %}">Blog</a></li>
             <li><a href="{% url 'blogs_create' %}">Post a Blog</a></li>
+            <li><a href="{% url 'logout' %}">Log Out</a></li>
+            {% else %}
+            <li><a href="{% url 'signup' %}">Sign up</a></li>
+            <li><a href="{% url 'login' %}">Log In</a></li>
+            {% endif %}
           </ul>
         </div>
       </nav>
@@ -34,7 +40,7 @@
     <main class="container">{% block content %} {% endblock %}</main>
     <footer class="page-footer">
       <div class="right">
-        All Rights Reserved, © 2022 Explor 
+        All Rights Reserved, © 2022 Anasemos Kassahun 
       </div>
     </footer>
   </body>

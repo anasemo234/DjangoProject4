@@ -11,4 +11,5 @@ urlpatterns = [
     path('blogs/<int:pk>/delete/', views.BlogDelete.as_view(), name='blogs_delete'),
     path('blogs/<int:blog_id>/add_food/', views.add_food, name='add_food'),
     path('blogs/<int:blog_id>/add_photo/', views.add_photo, name='add_photo'),
+    path('accounts/signup/', views.signup, name='signup'),
 ]

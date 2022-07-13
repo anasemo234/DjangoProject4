@@ -15,10 +15,10 @@ body {
   }
 
   .nav-wrapper {
-    background-color: lightseagreen;
+    background-color: #ffeb3b;
+    color: #ce93d8;
   }
 
   .page-footer {
-    background-color: lightseagreen;
+    background-color: #ffeb3b;
   }
-
