@@ -27,10 +27,6 @@ def home(request):
 def about(request):
     return render(request, 'about.html')
 
-def allblogs(request):
-    allblog = Blog.objects.all()
-    return render(request, 'all.html')
-
 
 def blogs_index(request):
     blogs = Blog.objects.filter(user=request.user)
