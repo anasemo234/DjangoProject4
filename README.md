@@ -32,6 +32,5 @@ Once deployed simply browse the store and see if anything reels you in!
 ## Future Enchancments
 
 * add functionality for users to write on other users posts
-* 
 * save/like items
 * add videos 
