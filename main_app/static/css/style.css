@@ -16,12 +16,12 @@ body {
   }
 
   .nav-wrapper {
-    background-color: #ffeb3b;
+    background-color: #212121;
     color: #ce93d8;
   }
 
   .page-footer {
-    background-color: #ffeb3b;
+    background-color: #212121;
     color: #ce93d8;
   }
 
@@ -55,5 +55,13 @@ body {
 
   nav .brand-logo {
     color: #ce93d8;
+    padding-left: 10px;
   }
 
+  img.responsive-img, video.responsive-video {
+    height: 75vh;
+  }
+
+  .card-panel {
+    background-color: lightgray;
+  }

@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block content %}
 <style>
   body {
-      background-image: url('https://images.unsplash.com/photo-1560332944-d047e59ac9b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+      background-image: url('https://images.unsplash.com/photo-1540597458480-43a890696f68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1501&q=80');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -9,14 +9,19 @@
 
   p {
     font-size: 1.6em;
-    color: #e0e0e0;
+    color: black;
     letter-spacing: 1px;
+    text-align: center;
+  }
+  .p-tag {
+    background-color: lightgrey;
   }
 </style>
   <body>
 
     <h1>About the Explor</h1>
     <hr />
+    <div class='p-tag'>
     <p> Explor is an app that provides an online canvas to upload your favorite trips. Provide as much detail about your trip we want to know about some of the amazing and beautiful places you have visited!!!</p>
-
+    </div>
 {% endblock %}

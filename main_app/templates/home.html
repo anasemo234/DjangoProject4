@@ -1,20 +1,21 @@
 {% extends 'base.html' %} {% block content %}
 <style>
      body {
-        background-image: url('https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+        {% comment %} background-image: url('https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: cover; {% endcomment %}
+        background-color: lightgrey;
     } 
     h1 {
         text-align: center;
-        color: white;
+        color: black;
     }
 
     .home-info {
         text-align: center;
         font-size: 40px;
-        color: white;
+        color: black;
     }
 </style>
     <h1>Welcome to Explor</h1>
