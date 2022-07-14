@@ -1,10 +1,10 @@
 # Explor
 
 Explor is an app that provides an online canvas to upload your favorite trips.!!
-* AAU 
-* - Should be able to add a blog
-* - Able to edit your blog
-* - Able to add photos of your blog
+# AAU 
+* Should be able to add a blog
+* Able to edit your blog
+* Able to add photos of your blog
      
       
 
@@ -25,7 +25,7 @@ Explor is an app that provides an online canvas to upload your favorite trips.!!
 
 
 ## Getting Started
-[Click here](https://footylab.herokuapp.com/writes) to see the app!
+[Click here](http://127.0.0.1:8000/) to see the app!
 Once deployed simply browse the store and see if anything reels you in!
 
 
