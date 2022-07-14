@@ -26,8 +26,6 @@ def home(request):
 
 def about(request):
     return render(request, 'about.html')
-
-
 def blogs_index(request):
     blogs = Blog.objects.filter(user=request.user)
     return render(request, 'blogs/index.html', {'blogs': blogs})

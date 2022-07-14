@@ -12,6 +12,7 @@ body {
   footer {
     padding-top: 0;
     text-align: right;
+
   }
 
   .nav-wrapper {
@@ -21,4 +22,38 @@ body {
 
   .page-footer {
     background-color: #ffeb3b;
+    color: #ce93d8;
   }
+
+  nav ul a {
+    color: #ce93d8;
+  }
+  
+  .btn, .btn-large, .btn-small {
+    background-color: #ce93d8;
+  }
+
+  .dropdown-content li>a, .dropdown-content li>span {
+    color: #ce93d8;
+  }
+
+  .teal-text {
+    color: #ce93d8 !important;
+  }
+
+  .datepicker-date-display, .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+    background-color: #ce93d8;
+  }
+
+  .datepicker-table td.is-selected {
+    background-color: #ce93d8;
+  }
+
+  .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #ce93d8;
+  }
+
+  nav .brand-logo {
+    color: #ce93d8;
+  }
+
